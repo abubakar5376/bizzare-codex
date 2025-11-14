@@ -652,6 +652,7 @@ h1.heading {
     font-size: 18px;
     font-weight: 500;
     backdrop-filter: blur(5px);
+    z-index: 0;
 }
 
 .collection .custom_container .img_cards .overlay img {

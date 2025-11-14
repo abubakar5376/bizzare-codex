@@ -50,7 +50,7 @@ function Creators() {
                         </div>
                     </div>
                     <div className="creator">
-                        <img src="/images/crown.svg" alt="" className="crown" />
+                        <img src="/images/crown.webp" alt="" className="crown" />
                         <img src="/images/creator_bg.svg" alt="" className="creator_bg" />
                         <div className="image">
                             <div className="img">

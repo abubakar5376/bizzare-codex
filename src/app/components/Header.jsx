@@ -2,23 +2,14 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function Header() {
   const [open, setOpen] = useState(false);
 
-    useEffect(() => {
-    AOS.init({
-      duration: 600, 
-      once: true,     
-    });
-  }, []);
-
   return (
     <>
       <header>
-        <div data-aos="fade" className="custom_container d-flex justify-content-between align-items-center">
+        <div className="custom_container d-flex justify-content-between align-items-center">
 
           {/* LOGO */}
           <div className="logo">

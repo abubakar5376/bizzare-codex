@@ -9,7 +9,6 @@ function Collection() {
     "/images/collection6.webp",
     "/images/collection1.webp",
     "/images/collection13.webp",
-    "/images/collection12.webp",
     "/images/collection4.webp",
     "/images/collection3.webp",
     "/images/collection8.webp",
@@ -25,6 +24,7 @@ function Collection() {
     "/images/collection13.webp",
     "/images/collection12.webp",
     "/images/collection4.webp",
+    "/images/collection12.webp",
     "/images/collection3.webp",
     "/images/collection8.webp",
     "/images/collection9.webp",
@@ -54,7 +54,7 @@ function Collection() {
           {visibleCards.map((src, index) => (
             <div key={index} className="img_card">
               <img src={src} alt={`collection ${index + 1}`} />
-              {index === 8 || index === 22  ? (
+              {src == '/images/collection8.webp' ? (
                 <div className="overlay">
                   <img src="/images/EyeSlash.svg" alt="" />
                   <div className="txt">NSFW Content</div>
