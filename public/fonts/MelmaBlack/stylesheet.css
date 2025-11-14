@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Melma';
+    src: url('MelmaBlack.woff2') format('woff2'),
+        url('MelmaBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

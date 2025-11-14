@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'New Rocker';
+    src: url('NewRocker-Regular.woff2') format('woff2'),
+        url('NewRocker-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

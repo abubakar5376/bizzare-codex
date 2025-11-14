@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Protest Revolution';
+    src: url('ProtestRevolution-Regular.woff2') format('woff2'),
+        url('ProtestRevolution-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
