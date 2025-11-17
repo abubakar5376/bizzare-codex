@@ -395,7 +395,7 @@ html {
 body {
   font-family: "Barlow Semi Condensed";
   background-color: #F3E8DB;
-  background-image: url(/images/body-bg.svg); 
+  background-image: url(/images/body_bg.svg); 
   height: 100vh;
   width: 100%;
   background-attachment: fixed;

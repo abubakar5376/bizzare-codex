@@ -1375,7 +1375,7 @@ footer .custom_container .bottom {
 
 footer .footer_bg {
     position: absolute;
-    bottom: 100%;
+    bottom: 90%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -2246,6 +2246,9 @@ header .links ul {
     }
         .welcome .custom_container .content h1 {
         font-size: 25px;
+    }
+    .popular .custom_container .genres_cards .gradient_right {
+        display: none;
     }
 }
 @media (max-width: 460px) {
